@@ -1,0 +1,42 @@
+@media screen and (max-width: 1023px) {
+    .navbar .logo a {
+      font-size: 1.5rem;
+    }
+  
+    .links {
+      position: fixed;
+      left: -100%;
+      top: 75px;
+      width: 100%;
+      height: 100vh;
+      padding-top: 50px;
+      background: #175d69;
+      flex-direction: column;
+      transition: 0.3s ease;
+    }
+  
+    .navbar #menu-toggle:checked ~ .links {
+      left: 0;
+    }
+  
+    .navbar #hamburger-btn {
+      display: block;
+    }
+  
+    .header .buttons {
+      display: none;
+    }
+  
+    .hero-section .hero {
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    .hero-section img {
+      display: none;
+    }
+
+    .bunglaw_container{
+        display: block;
+    }
+  }
